@@ -1,6 +1,7 @@
 version: '3.2'
 services:
   c9:
+    container_name: c9
     build: ./dockerfile/
     volumes:
       - ./work/:/home/docker/c9work/
